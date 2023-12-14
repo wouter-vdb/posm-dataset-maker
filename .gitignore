@@ -1,0 +1,57 @@
+# Results
+!./results/
+./results
+!./results/.placeholder
+
+# Builds and data
+build/
+dist/
+/results/
+
+# Potentially sensitive
+.env*
+
+# Testing
+.coverage
+.coverage.*
+.mypy_cache/
+TEST*.xml
+tests/reports/
+
+# Tooling
+.idea/
+.tox*
+.vscode/
+
+# Python Environment
+venv/
+**/venv
+
+# Log files
+*.log
+logs/
+
+# Cache files
+__pycache__
+.pytest_cache/
+.cache/
+.eggs/
+*.egg
+*.egg-info/
+
+# Compiled Python bytecode
+*.py[cod]
+
+# OS metadata files
+.DS_Store
+Thumbs.db
+
+# Misc
+=*
+*.bib.bak
+*.bib.sav
+*.ipynb_checkpoints
+*.so
+*.mo
+_tmp
+

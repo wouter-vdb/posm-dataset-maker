@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:exslt="http://exslt.org/common" width="522.2" height="640" viewBox="-35 -40 522.2 640">
+  <svg:text x="243.6" y="50" font-style="italic" text-anchor="middle" fill="blue"/>
+  <svg:text x="243.6" y="70" text-anchor="middle"><svg:tspan font-weight="bold" fill="red"/>top</svg:text>
+  <svg:line x1="243.6" y1="80" x2="224" y2="110" style="stroke:#006600;"/>
+  <svg:line x1="243.6" y1="80" x2="467.6" y2="110" style="stroke:#006600;"/>
+  <svg:text x="224" y="130" font-style="italic" text-anchor="middle" fill="blue">--</svg:text>
+  <svg:text x="224" y="150" text-anchor="middle"><svg:tspan font-weight="bold" fill="red"/>smain</svg:text>
+  <svg:line x1="224" y1="160" x2="103.6" y2="190" style="stroke:#006600;"/>
+  <svg:line x1="224" y1="160" x2="235.2" y2="190" style="stroke:#006600;"/>
+  <svg:line x1="224" y1="160" x2="355.6" y2="190" style="stroke:#006600;"/>
+  <svg:text x="103.6" y="210" font-style="italic" text-anchor="middle" fill="blue">su</svg:text>
+  <svg:text x="103.6" y="230" text-anchor="middle"><svg:tspan font-weight="bold" fill="red">1</svg:tspan>:np</svg:text>
+  <svg:line x1="103.6" y1="240" x2="40.6" y2="270" style="stroke:#006600;"/>
+  <svg:line x1="103.6" y1="240" x2="144.2" y2="270" style="stroke:#006600;"/>
+  <svg:text x="40.6" y="290" font-style="italic" text-anchor="middle" fill="blue">hd</svg:text>
+  <svg:text x="40.6" y="310" text-anchor="middle" onmouseover="tooltip.show('postag=N(soort,mv,basis)  frame=noun(het,count,pl)')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>n</svg:text>
+  <svg:text x="40.6" y="330" text-anchor="middle">
+    <svg:tspan>Kinderen</svg:tspan>
+  </svg:text>
+  <svg:text x="40.6" y="345" text-anchor="middle">
+    <svg:tspan>kind</svg:tspan>
+  </svg:text>
+  <svg:text x="144.2" y="290" font-style="italic" text-anchor="middle" fill="blue">mod</svg:text>
+  <svg:text x="144.2" y="310" text-anchor="middle"><svg:tspan font-weight="bold" fill="red"/>pp</svg:text>
+  <svg:line x1="144.2" y1="320" x2="100.8" y2="350" style="stroke:#006600;"/>
+  <svg:line x1="144.2" y1="320" x2="163.8" y2="350" style="stroke:#006600;"/>
+  <svg:text x="100.8" y="370" font-style="italic" text-anchor="middle" fill="blue">hd</svg:text>
+  <svg:text x="100.8" y="390" text-anchor="middle" onmouseover="tooltip.show('postag=VZ(init)  frame=preposition(tot,[toe,[aan,toe]])')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>vz</svg:text>
+  <svg:text x="100.8" y="410" text-anchor="middle">
+    <svg:tspan>tot</svg:tspan>
+  </svg:text>
+  <svg:text x="163.8" y="370" font-style="italic" text-anchor="middle" fill="blue">obj1</svg:text>
+  <svg:text x="163.8" y="390" text-anchor="middle"><svg:tspan font-weight="bold" fill="red"/>np</svg:text>
+  <svg:line x1="163.8" y1="400" x2="140" y2="430" style="stroke:#006600;"/>
+  <svg:line x1="163.8" y1="400" x2="183.4" y2="430" style="stroke:#006600;"/>
+  <svg:text x="140" y="450" font-style="italic" text-anchor="middle" fill="blue">det</svg:text>
+  <svg:text x="140" y="470" text-anchor="middle" onmouseover="tooltip.show('postag=TW(hoofd,prenom,stan)  frame=number(hoofd(pl_num))')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>tw</svg:text>
+  <svg:text x="140" y="490" text-anchor="middle">
+    <svg:tspan>15</svg:tspan>
+  </svg:text>
+  <svg:text x="183.4" y="450" font-style="italic" text-anchor="middle" fill="blue">hd</svg:text>
+  <svg:text x="183.4" y="470" text-anchor="middle" onmouseover="tooltip.show('postag=N(soort,ev,basis,onz,stan)  frame=tmp_noun(het,count,bare_meas)')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>n</svg:text>
+  <svg:text x="183.4" y="490" text-anchor="middle">
+    <svg:tspan>jaar</svg:tspan>
+  </svg:text>
+  <svg:text x="235.2" y="210" font-style="italic" text-anchor="middle" fill="blue">hd</svg:text>
+  <svg:text x="235.2" y="230" text-anchor="middle" onmouseover="tooltip.show('postag=WW(pv,tgw,mv)  frame=verb(hebben,pl,modifier(aux(inf)))')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>ww</svg:text>
+  <svg:text x="235.2" y="250" text-anchor="middle">
+    <svg:tspan>mogen</svg:tspan>
+  </svg:text>
+  <svg:text x="235.2" y="280" text-anchor="middle">
+    <svg:tspan>mag</svg:tspan>
+  </svg:text>
+  <svg:text x="355.6" y="210" font-style="italic" text-anchor="middle" fill="blue">vc</svg:text>
+  <svg:text x="355.6" y="230" text-anchor="middle"><svg:tspan font-weight="bold" fill="red"/>inf</svg:text>
+  <svg:line x1="355.6" y1="240" x2="278.6" y2="270" style="stroke:#006600;"/>
+  <svg:line x1="355.6" y1="240" x2="326.2" y2="270" style="stroke:#006600;"/>
+  <svg:line x1="355.6" y1="240" x2="403.2" y2="270" style="stroke:#006600;"/>
+  <svg:text x="278.6" y="290" font-style="italic" text-anchor="middle" fill="blue">su</svg:text>
+  <svg:text x="278.6" y="310" text-anchor="middle">
+    <svg:tspan font-weight="bold" fill="red">1</svg:tspan>
+  </svg:text>
+  <svg:text x="326.2" y="290" font-style="italic" text-anchor="middle" fill="blue">mod</svg:text>
+  <svg:text x="326.2" y="310" text-anchor="middle" onmouseover="tooltip.show('postag=ADJ(vrij,basis,zonder)  frame=adjective(both(adv))')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>adj</svg:text>
+  <svg:text x="326.2" y="330" text-anchor="middle">
+    <svg:tspan>gratis</svg:tspan>
+  </svg:text>
+  <svg:text x="403.2" y="290" font-style="italic" text-anchor="middle" fill="blue">hd</svg:text>
+  <svg:text x="403.2" y="310" text-anchor="middle" onmouseover="tooltip.show('postag=WW(inf,vrij,zonder)  frame=verb(unacc,inf,ninv(intransitive,part_intransitive(mee)))')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>ww</svg:text>
+  <svg:text x="403.2" y="330" text-anchor="middle">
+    <svg:tspan>meekomen</svg:tspan>
+  </svg:text>
+  <svg:text x="403.2" y="345" text-anchor="middle">
+    <svg:tspan>mee_komen</svg:tspan>
+  </svg:text>
+  <svg:text x="403.2" y="360" text-anchor="middle">
+    <svg:tspan>kom_mee</svg:tspan>
+  </svg:text>
+  <svg:text x="467.6" y="130" font-style="italic" text-anchor="middle" fill="blue">--</svg:text>
+  <svg:text x="467.6" y="150" text-anchor="middle" onmouseover="tooltip.show('postag=LET()  frame=punct(punt)')" onmouseout="tooltip.hide()"><svg:tspan font-weight="bold" fill="red"/>let</svg:text>
+  <svg:text x="467.6" y="170" text-anchor="middle">
+    <svg:tspan>.</svg:tspan>
+  </svg:text>
+  <svg:text x="10" y="10" text-anchor="start">Kinderen tot 15 jaar mogen gratis meekomen .</svg:text>
+</svg:svg>
+   
