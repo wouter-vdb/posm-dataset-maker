@@ -11,8 +11,105 @@ Add a `.env` in and add the following variables with the appropriate values:
 TREEBANK_DIR="path/to/the/Lassy/Treebank/directory/"
 ```
 
+## Result Dataset Format
 
-## Example Tree
+A dataset is a directory that contains multiple json-files, one for each document, and
+one `_metadata.json` file. Each document json-file contains a dictionary with two keys:
+
+- `doc`: the document ID
+- `data`: a dictionary that maps sentence IDs to sentence data dictionaries
+
+Each sentence data dictionary contains two keys:
+
+- `pos_nl`: a list of lists, each of which contains two elements, a word and the Dutch
+  POS-tags for that word, in the order in the respective sentence
+- `sentence`: the full sentence
+
+### Example
+
+```json
+{
+ "data": {
+  "p.17.s.3": {
+   "pos_nl": [
+    [
+     "Kinderen",
+     "n"
+    ],
+    [
+     "tot",
+     "vz"
+    ],
+    [
+     "15",
+     "tw"
+    ],
+    [
+     "jaar",
+     "n"
+    ],
+    [
+     "mogen",
+     "ww"
+    ],
+    [
+     "gratis",
+     "adj"
+    ],
+    [
+     "meekomen",
+     "ww"
+    ],
+    [
+     ".",
+     "let"
+    ]
+   ],
+   "sentence": "Kinderen tot 15 jaar mogen gratis meekomen ."
+  },
+  "p.17.s.4": {
+   "pos_nl": [
+    [
+     "De",
+     "lid"
+    ],
+    [
+     "laatste",
+     "adj"
+    ],
+    [
+     "optredens",
+     "n"
+    ],
+    [
+     "zijn",
+     "ww"
+    ],
+    [
+     "voorzien",
+     "ww"
+    ],
+    [
+     "rond",
+     "vz"
+    ],
+    [
+     "21u00",
+     "spec"
+    ],
+    [
+     ".",
+     "let"
+    ]
+   ],
+   "sentence": "De laatste optredens zijn voorzien rond 21u00 ."
+  }
+ },
+ "doc": "WR-P-E-C-0000000004"
+}
+```
+
+## Example Tree from the Lassy Small Corpus
 
 - Sentence: "Kinderen tot 15 jaar mogen gratis meekomen."
 - Source: `WR-P-E-C-0000000004/WR-P-E-C-0000000004.p.17.s.3.xml`
