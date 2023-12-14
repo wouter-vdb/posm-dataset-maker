@@ -310,24 +310,6 @@ class Extractor:
         pos_nl = [p2[1] for p2 in sorted(pos_nl, key=lambda p1: p1[0])]
 
         return {
-            # "id": id,
             "sentence": sentence,
             "pos_nl": pos_nl,
         }
-
-
-# def etree_to_dag(etree: ElementTree, name: str | None) -> DAG[str]:
-#     nodes = set(etree.iter("node"))
-#     edges = {
-#         Edge(s.attrib["id"], t.attrib["id"], t.attrib["rel"])
-#         for s in nodes
-#         for t in s.findall("node")
-#     }
-#     attribs = {
-#         n.attrib["id"]: {k: v for k, v in n.attrib.items() if k != "rel"}
-#         for n in nodes
-#     }
-#     return DAG(
-#         set(attribs.keys()), edges, attribs,
-#         {"name": name} if name is not None else {}
-#     )
